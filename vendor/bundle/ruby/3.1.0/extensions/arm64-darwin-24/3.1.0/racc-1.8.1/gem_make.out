@@ -1,0 +1,19 @@
+current directory: /Users/kkkkkk/Desktop/个人相关/HomePage/jekyll-site/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby@3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/kkkkkk/Desktop/个人相关/HomePage/jekyll-site/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251208-48873-bovydk sitelibdir\=./.gem.20251208-48873-bovydk clean
+
+current directory: /Users/kkkkkk/Desktop/个人相关/HomePage/jekyll-site/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251208-48873-bovydk sitelibdir\=./.gem.20251208-48873-bovydk
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/kkkkkk/Desktop/个人相关/HomePage/jekyll-site/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251208-48873-bovydk sitelibdir\=./.gem.20251208-48873-bovydk install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251208-48873-bovydk/racc
+
+current directory: /Users/kkkkkk/Desktop/个人相关/HomePage/jekyll-site/vendor/bundle/ruby/3.1.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251208-48873-bovydk sitelibdir\=./.gem.20251208-48873-bovydk clean
