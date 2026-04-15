@@ -7,12 +7,13 @@
   url = {https://openreview.net/pdf?id=ibWIrx69yc},
   abstract = {Understanding and forecasting wall pressure on bluff bodies is crucial for assessing urban structural safety and infrastructure resilience. While recent studies have explored deep learning for predicting mean and fluctuating pressure coefficients, most existing frameworks are restricted to single-snapshot predictions and lack physical interpretability. This work introduces PresCast, a physics-constrained Fourier Kolmogorov-Arnold neural network (FKAN) designed for spatiotemporal wall pressure forecasting. FKAN integrates a Fourier neural operator within the Kolmogorov-Arnold architecture, and incorporates a physics-constrained frequency loss to guide the training process and enhance generalization to high-frequency dynamics. Wind tunnel experiments were conducted on a classical bluff body, a rectangular cylinder of side ratio 1.5 under zero angle of attack, using high-frequency pressure scanning, building a comprehensive dataset for training and validation. Results demonstrate that PresCast achieves accurate spatiotemporal forecasting of wall pressure, capturing both statistical properties and physical signatures, including temporal fluctuations, power spectral density, and spatial distribution.},
   description = {NeurIPS 2025 收录论文，基于物理约束傅里叶 KAN 的钝体壁面压力时空预测。},
-  keywords = {Physics-Constrained, Fourier, Kolmogorov-Arnold Networks, Fluid Dynamics, NeurIPS}
+  keywords = {Physics-Constrained, Fourier, Kolmogorov-Arnold Networks, Fluid Dynamics, NeurIPS},
+  preview = {PreCast.png}
 }
 
 @misc{wang2024dcpi,
   selected={true},
-  title = {DRUPI: Dataset Reduction Using Privileged Information},
+  title = {DCPI: Dataset Condensation using Privileged Information},
   author = {Shaobo Wang and Youxin Jiang and Tianle Niu# and Yantai Yang and Ruiji Zhang and Shuhao Hu and Shuaiyu Zhang and Chenghao Sun and Weiya Li and Conghui He and Xuming Hu and Linfeng Zhang},
   year = {2024},
   eprint = {2410.01611},
@@ -21,7 +22,8 @@
   url = {https://arxiv.org/abs/2410.01611v3},
   abstract = {Dataset Condensation (DC) seeks to select or distill samples from large datasets into smaller subsets while preserving performance on target tasks. Existing methods primarily focus on pruning or synthesizing data in the same format as the original dataset, typically being the input data and corresponding labels. However, in DC settings, we find it is possible to synthesize more information beyond the data-label pair as an additional learning target to facilitate model training. In this paper, we introduce Dataset Condensation using Privileged Information (DCPI), which enriches DC by synthesizing privileged information alongside the reduced dataset. This privileged information can take the form of feature labels or attention labels, providing auxiliary supervision to improve model learning. Our findings reveal that effective feature labels must balance between being overly discriminative and excessively diverse, with a moderate level proves optimal for improving the reduced dataset's efficacy. Extensive experiments on ImageNet-1K, CIFAR-10/100 and Tiny ImageNet demonstrate that DCPI integrates seamlessly with existing dataset condensation methods, offering significant performance gains.},
   description = {arxiv 预印本，数据集压缩引入特权信息，共同一作。},
-  keywords = {Dataset Condensation, Privileged Information, Data Distillation}
+  keywords = {Dataset Condensation, Privileged Information, Data Distillation},
+  preview = {DCPI.png}
 }
 
 @misc{wang2024videocompressa,
