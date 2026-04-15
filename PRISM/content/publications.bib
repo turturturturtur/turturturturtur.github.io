@@ -1,16 +1,16 @@
-@inproceedings{liu2026prescast,
+@inproceedings{liu2025prescast,
   selected={true},
   title = {PresCast: Physics-Constrained Fourier Kolmogorov-Arnold Networks for Bluff Bodies Spatiotemporal Wall Pressure Forecast},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
   author = {Junle Liu and Yanyu Ke and Haoyan Li and Wenliang Chen and Tianle Niu and Tim Tse and Gang Hu},
-  year = {2026},
+  year = {2025},
   url = {https://openreview.net/pdf?id=ibWIrx69yc},
   abstract = {Understanding and forecasting wall pressure on bluff bodies is crucial for assessing urban structural safety and infrastructure resilience. While recent studies have explored deep learning for predicting mean and fluctuating pressure coefficients, most existing frameworks are restricted to single-snapshot predictions and lack physical interpretability. This work introduces PresCast, a physics-constrained Fourier Kolmogorov-Arnold neural network (FKAN) designed for spatiotemporal wall pressure forecasting. FKAN integrates a Fourier neural operator within the Kolmogorov-Arnold architecture, and incorporates a physics-constrained frequency loss to guide the training process and enhance generalization to high-frequency dynamics. Wind tunnel experiments were conducted on a classical bluff body, a rectangular cylinder of side ratio 1.5 under zero angle of attack, using high-frequency pressure scanning, building a comprehensive dataset for training and validation. Results demonstrate that PresCast achieves accurate spatiotemporal forecasting of wall pressure, capturing both statistical properties and physical signatures, including temporal fluctuations, power spectral density, and spatial distribution.},
-  description = {NeurIPS 2026 收录论文，基于物理约束傅里叶 KAN 的钝体壁面压力时空预测。},
+  description = {NeurIPS 2025 收录论文，基于物理约束傅里叶 KAN 的钝体壁面压力时空预测。},
   keywords = {Physics-Constrained, Fourier, Kolmogorov-Arnold Networks, Fluid Dynamics, NeurIPS}
 }
 
-
+@misc{wang2024dcpi,
   selected={true},
   title = {DRUPI: Dataset Reduction Using Privileged Information},
   author = {Shaobo Wang and Youxin Jiang and Tianle Niu# and Yantai Yang and Ruiji Zhang and Shuhao Hu and Shuaiyu Zhang and Chenghao Sun and Weiya Li and Conghui He and Xuming Hu and Linfeng Zhang},
@@ -24,42 +24,42 @@
   keywords = {Dataset Condensation, Privileged Information, Data Distillation}
 }
 
-
+@misc{wang2024videocompressa,
   selected={true},
-  title = {VideoCompressa},
-  author = {Shaobo Wang* and Tianle Niu* and Runkang Yang and Deshan Liu and Xu He and Zichen Wen and Conghui He and Xuming Hu and Linfeng Zhang and Rongbiao Wang and Gongzhe Qiu and Yu Hu and Yihua Kang},
+  title = {VideoCompressa: Data-Efficient Video Understanding via Joint Temporal Compression and Spatial Reconstruction},
+  author = {Shaobo Wang# and Tianle Niu# and Runkang Yang and Deshan Liu and Xu He and Zichen Wen and Conghui He and Xuming Hu and Linfeng Zhang},
   year = {2024},
   eprint = {2511.18831},
   archivePrefix = {arXiv},
   primaryClass = {cs.CV},
   url = {https://arxiv.org/abs/2511.18831},
-  abstract = {Video compression paper by Shaobo Wang and Tianle Niu et al.},
-  description = {视频压缩相关工作，第一作者（共同一作）。},
-  keywords = {Video Compression, Multimodal, LLM},
+  abstract = {The scalability of video understanding models is increasingly limited by the prohibitive storage and computational costs of large-scale video datasets. While data synthesis has improved data efficiency in the image domain, its extension to video remains challenging due to pervasive temporal redundancy and complex spatiotemporal dynamics. In this work, we uncover a critical insight: the primary source of inefficiency in video datasets is not inter-sample redundancy, but intra-sample frame-level redundancy. To leverage this insight, we introduce VideoCompressa, a novel framework for video data synthesis that reframes the problem as dynamic latent compression. Specifically, VideoCompressa jointly optimizes a differentiable keyframe selector to identify the most informative frames, and a pretrained frozen VAE to compress these frames into compact, semantically rich latent codes. Experiments show that our method achieves unprecedented data efficiency: on UCF101 with ConvNets, VideoCompressa surpasses full-data training by 2.34% points using only 0.13% of the original data, with over 5800x speedup. Moreover, when fine-tuning Qwen2.5-7B-VL on HMDB51, VideoCompressa matches full-data performance using just 0.41% of the training data.},
+  description = {arxiv 预印本，视频数据高效合成框架，共同一作。},
+  keywords = {Video Understanding, Data Distillation, Temporal Compression},
   preview = {VideoCompressa.svg}
 }
 
 @inproceedings{wang2026imagebinddc,
   selected={true},
-  title = {ImageBindDC},
+  title = {ImageBindDC: Compressing Multi-Modal Data with ImageBind-Based Condensation},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
   author = {Shaobo Wang and Tianle Niu and Runkang Yang and Deshan Liu and Xu He and Zichen Wen and Conghui He and Xuming Hu and Linfeng Zhang},
   year = {2026},
   url = {https://arxiv.org/abs/2511.08263},
   abstract = {AAAI 2026 paper by Shaobo Wang and Tianle Niu et al.},
-  description = {AAAI 2026 收录论文，数据蒸馏相关工作。},
+  description = {AAAI 2026 收录论文，首个基于 ImageBind 统一特征空间的多模态数据凝缩框架。},
   keywords = {Data Distillation, Multimodal, MLLM},
   preview = {ImageBindDC.png}
 }
 
 @inproceedings{wang2026meltrim,
   selected={true},
-  title = {MelTrim},
+  title = {MelTrim: Coarse-to-Fine Data Pruning for Speech Classification},
   booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
   author = {Shaobo Wang and Tianle Niu and Xuan Ouyang and Xintong Li and Zhengkun Ge and Yue Min and Xiaoqian Liu and Hankun Wang and Linfeng Zhang},
   year = {2026},
   abstract = {ACL Findings 2026 paper by Shaobo Wang and Tianle Niu et al.},
-  description = {ACL Findings 2026 收录论文，图像修复相关工作。},
-  keywords = {Image Restoration, NLP, ACL},
+  description = {ACL Findings 2026 收录论文，粗到细两段式音频数据压缩框架，共同一作。},
+  keywords = {Speech Classification, Data Pruning, NLP},
   preview = {MelTrim.png}
 }
