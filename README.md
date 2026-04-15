@@ -1,67 +1,95 @@
-
 <h1 align="center">
-AcadHomepage
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=200&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Tianle+Niu;Undergrad+%40+HIT+%C2%B7+Computer+Science;Data+Compression+%C2%B7+Multimodal+%C2%B7+Video;Building+towards+AGI" alt="Typing SVG" />
 </h1>
 
-<div align="center">
-
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [English README](./docs/README-en.md) 
-
-</div>
-
-<p align="center">一个现代、响应式的个人学术主页</p>
-
-
 <p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
+  <a href="https://turturturturtur.github.io/"><strong>🌐 Explore my homepage →</strong></a>
 </p>
 
-一些例子：
-- [样例页面](https://rayeren.github.io/acad-homepage.github.io/)
-- [作者的个人主页](https://rayeren.github.io/)
+<p align="center">
+  🎓 Undergrad in Computer Science @ Harbin Institute of Technology (HIT)<br/>
+  🔭 Researching Data Compression · Data Distillation · Multimodal · Data Mixture<br/>
+  💻 On the path of large language models<br/>
+  🎯 Aspiring to build my own AI product<br/>
+  📧 Email: <a href="mailto:2023110605@stu.hit.edu.cn">2023110605@stu.hit.edu.cn</a>
+</p>
 
-## 主要特点
-- **自动更新谷歌学术引用**: 借助谷歌学术爬虫和github action功能，本仓库可以自动更新作者的引用数和论文引用数。
-- **支持谷歌Analytics**: 你可以通过简单的配置来实现使用谷歌Analytics跟踪网页的流量。
-- **响应式的**: 此主页会针对不同的屏幕尺寸自动调整布局。
-- **美观而简约**: 此主页美观而简约，适合个人学术主页的搭建。
-- **搜索引擎优化**: 搜索引擎优化 (SEO) 帮助搜索引擎轻松找到您在主页上发布的信息，然后将其与类似网站进行排名，并获得排名优势。
+---
 
-## 快速开始
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=turturturturtur&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views"/>
+  <img src="https://img.shields.io/github/followers/turturturturtur?style=for-the-badge&logo=github&label=Followers&color=2eb85c" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/github/stars/turturturturtur?affiliations=OWNER&style=for-the-badge&logo=github&label=Stars&color=f39c12" alt="GitHub Stars"/>
+</p>
 
-1. Fork本仓库到`USERNAME/USERNAME.github.io`，其中`USERNAME`是你的github用户名。
-1. 配置谷歌学术引用爬虫：
-    1. 在你的谷歌学术引用页面的url里找到你的谷歌学术ID：例如，在url https://scholar.google.com/citations?user=SCHOLAR_ID 中，`SCHOLAR_ID`部分即为你的谷歌学术ID。
-    1. 在github本仓库页面的`Settings -> Secrets -> Actions -> New repository secret`中，添加`GOOGLE_SCHOLAR_ID`变量：`name=GOOGLE_SCHOLAR_ID`、`value=SCHOLAR_ID`。
-    1. 在github本仓库页面的`Action`中，点击*"I understand my workflows, go ahead and enable them"*启用workflows by clicking *"。本action将会谷歌学术引用的统计量数据`gs_data.json`到本仓库的`google-scholar-stats`分支中。每次修改main分支的内容会触发该action。本action也会在每天08:00 UTC定时触发。
-1. 使用 [favicon-generator](https://redketchup.io/favicon-generator)生成favicon（网页icon文件），并下载所有文件到`REPO/images`。
-1. 修改主页配置文件[_config.yml](../_config.yml):
-    1. `title`: 主页标题
-    1. `description`: 主页的描述
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (可选的): 谷歌Analytics ID
-    1. SEO相关的键值 (可选的): 从搜索引擎的控制台里获得对应的ID (例如：Google, Bing and Baidu)，然后粘贴到这里。
-    1. `author`: 主页作者信息，包括其他网页、Email、所在城市、大学等。
-    1. `google_scholar_stats_use_cdn`: 使用CDN读取存储于`https://raw.githubusercontent.com/`的google scholar引用统计数据，防止中国大陆地区被墙无法访问的情况。但是CDN有缓存，因此`google_scholar_stats_use_cdn : True`时，引用数据更新会有延迟。
-    1. 更多的配置信息在注释中有详细描述。
-1. 将你的主页内容添加到 [_pages/about.md](../_pages/about.md).
-1. 你的主页将会被部署到`https://USERNAME.github.io`.
+---
 
-## 本地调试
+## 🔬 Research Interests
 
-1. 使用`git clone`将本项目克隆到本地。
-1. 安装Jekyll的构建环境，包括`Ruby`、`RubyGems`、`GCC`和`Make`。可参考[该教程](https://jekyllrb.com/docs/installation/#requirements)。
-1. 运行 `bash run_server.sh` 来启动Jekyll实时重载服务器。
-1. 在浏览器里打开 [http://127.0.0.1:4000](http://127.0.0.1:4000)。如果你修改了网页的源码，服务器会自动重新编译并刷新页面。
-1. 当你修改完毕你的页面以后, 使用`git`命令，`commit`你的改动并`push`到你的github仓库中。
+> **数据压缩与知识蒸馏 | Data Compression & Knowledge Distillation**  
+> 探索如何在不损失表达能力的前提下压缩大规模数据集与模型，让 AI 更高效、更普惠。  
+> Exploring how to compress large-scale datasets and models without sacrificing representational power — making AI more efficient and accessible.
+>
+> **训练数据混合与配比 | Training Data Mixing & Proportion**  
+> 研究预训练、中训练、后训练各阶段的数据来源选择、质量过滤与比例调配策略，提升模型在不同阶段的学习效率与泛化能力。  
+> Investigating data sourcing, quality filtering, and mixing strategies across pretrain / midtrain / posttrain stages to improve learning efficiency and generalization.
+>
+> **多模态学习与视频理解 | Multimodal Learning & Video Understanding**  
+> 研究能够联合处理视觉、时序与语言信号的模型，专注于跨场景的鲁棒视频理解。  
+> Working on models that jointly process visual, temporal, and language signals, with a focus on robust video comprehension across diverse scenarios.
+>
+> **大语言模型与 AGI | Large Language Models & AGI**  
+> 探索 LLM 的能力边界，思考如何将其引导向更通用、更可靠的智能形态。  
+> Investigating the capabilities and limits of LLMs, and how to steer them toward more general, reliable intelligence.
 
-# Acknowledges
+---
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+## 🌱 Long-term Vision
+
+> 我想成为一个能贯通全栈的人——从前沿研究到落地产品。  
+> 正在研发基于飞书的智能工作流，探索 AI 与企业协作场景的深度结合。  
+> 我的目标是做出真正有用的 AI 工具，最终做成我自己相信的产品。  
+> 希望我做的东西，能让一些人的生活变得好一点点。
+>
+> I want to become someone who can traverse the full stack — from cutting-edge research to real-world products.  
+> Currently building intelligent workflows on Feishu, exploring the deep integration of AI into enterprise collaboration.  
+> My goal is to build AI tools that are genuinely useful, and eventually create products that I believe in.  
+> I hope that what I build can, in some small way, make things a little better for people.
+
+---
+
+## 👨🏻‍💻 Languages and Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=vscode,python,pytorch,linux,docker,git" alt="Tech Stack"/>
+</p>
+
+---
+
+## 🤝 Connect with me
+
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=5QyvdH0AAAAJ&hl=zh-CN">
+    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"/>
+  </a>
+  <a href="https://github.com/turturturturtur">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://x.com/yellowpeach25">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
+  </a>
+  <a href="https://www.xiaohongshu.com/user/profile/62f39d0b000000001e01de71">
+    <img src="https://img.shields.io/badge/小红书-FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white" alt="Xiaohongshu"/>
+  </a>
+</p>
+
+---
+
+## ✨ Quote
+
+> *"直面恐惧，创造未来。"*  
+> *"Face your fears, shape the future."*
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</p>
