@@ -3,8 +3,32 @@ title = "荣誉奖项"
 description = "所获荣誉与奖项。"
 
 [[items]]
-title = "中国移动第四届"梧桐杯"人工智能赛道"
-subtitle = "中国移动"
+title = "国家奖学金"
+subtitle = "教育部"
+date = "2024"
+content = ""
+
+[[items]]
+title = "院士奖学金（全校11人）"
+subtitle = "哈尔滨工业大学"
+date = "2024"
+content = ""
+
+[[items]]
+title = "企业奖学金（全校5人）"
+subtitle = "哈尔滨工业大学"
+date = "2024"
+content = ""
+
+[[items]]
+title = "哈工大十佳学习之星"
+subtitle = "哈尔滨工业大学"
+date = "2024"
+content = ""
+
+[[items]]
+title = "中国移动第四届梧桐杯人工智能赛道"
+subtitle = "中国移动（本硕博组）"
 date = "2025.04"
 content = "全国亚军"
 
@@ -13,24 +37,6 @@ title = "美国大学生数学建模竞赛 (MCM/ICM)"
 subtitle = "COMAP"
 date = "2025.05"
 content = "M 奖"
-
-[[items]]
-title = "大学生创新创业训练计划年会"
-subtitle = "哈尔滨工业大学"
-date = "2024.11"
-content = "本科负责人"
-
-[[items]]
-title = "生命医学工程竞赛"
-subtitle = "全国"
-date = "2025.07"
-content = "国家级一等奖"
-
-[[items]]
-title = "全国大学生生命科学竞赛"
-subtitle = "全国"
-date = "2025.07"
-content = "国家级二等奖"
 
 [[items]]
 title = "高教杯全国大学生数学建模竞赛"
@@ -43,6 +49,18 @@ title = "全国大学生创新创业产业赛道"
 subtitle = "全国"
 date = "2024.10"
 content = "银奖"
+
+[[items]]
+title = "生命医学工程竞赛"
+subtitle = "全国"
+date = "2025.07"
+content = "国家级一等奖"
+
+[[items]]
+title = "全国大学生生命科学竞赛"
+subtitle = "全国"
+date = "2025.07"
+content = "国家级二等奖"
 
 [[items]]
 title = "全国职业规划大赛"
