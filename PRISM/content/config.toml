@@ -1,0 +1,51 @@
+[site]
+title = "钮天乐"
+description = "深度学习 | 计算机视觉 | LLM | MLLM"
+favicon = "/favicon.svg"
+last_updated = "April 2026"
+
+[author]
+name = "钮天乐"
+title = "本科生"
+institution = "哈尔滨工业大学 未来技术学院"
+avatar = "/avatar.svg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "2023110605@stu.hit.edu.cn"
+location = "黑龙江 哈尔滨"
+location_url = "https://maps.google.com/?q=Harbin+Institute+of+Technology"
+location_details = [
+  "哈尔滨工业大学",
+  "黑龙江省哈尔滨市南岗区"
+]
+github = "https://github.com/turturturturtur"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+
+[[navigation]]
+title = "简介"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "论文专利"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "荣誉奖项"
+type = "page"
+target = "awards"
+href = "/awards"

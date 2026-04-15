@@ -1,0 +1,22 @@
+type = "about"
+title = "简介"
+
+[profile]
+research_interests = [
+  "多模态大语言模型 (MLLM)",
+  "数据蒸馏 (Data Distillation)",
+  "图像修复 (Image Restoration)"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "简介"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "论文专利"
+filter = "selected"
+limit = 5
