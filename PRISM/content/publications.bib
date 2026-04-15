@@ -1,4 +1,18 @@
-@misc{wang2024videocompressa,
+@misc{wang2024dcpi,
+  selected={true},
+  title = {DRUPI: Dataset Reduction Using Privileged Information},
+  author = {Shaobo Wang and Youxin Jiang and Tianle Niu# and Yantai Yang and Ruiji Zhang and Shuhao Hu and Shuaiyu Zhang and Chenghao Sun and Weiya Li and Conghui He and Xuming Hu and Linfeng Zhang},
+  year = {2024},
+  eprint = {2410.01611},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url = {https://arxiv.org/abs/2410.01611v3},
+  abstract = {Dataset Condensation (DC) seeks to select or distill samples from large datasets into smaller subsets while preserving performance on target tasks. Existing methods primarily focus on pruning or synthesizing data in the same format as the original dataset, typically being the input data and corresponding labels. However, in DC settings, we find it is possible to synthesize more information beyond the data-label pair as an additional learning target to facilitate model training. In this paper, we introduce Dataset Condensation using Privileged Information (DCPI), which enriches DC by synthesizing privileged information alongside the reduced dataset. This privileged information can take the form of feature labels or attention labels, providing auxiliary supervision to improve model learning. Our findings reveal that effective feature labels must balance between being overly discriminative and excessively diverse, with a moderate level proves optimal for improving the reduced dataset's efficacy. Extensive experiments on ImageNet-1K, CIFAR-10/100 and Tiny ImageNet demonstrate that DCPI integrates seamlessly with existing dataset condensation methods, offering significant performance gains.},
+  description = {arxiv 预印本，数据集压缩引入特权信息，共同一作。},
+  keywords = {Dataset Condensation, Privileged Information, Data Distillation}
+}
+
+
   selected={true},
   title = {VideoCompressa},
   author = {Shaobo Wang* and Tianle Niu* and Runkang Yang and Deshan Liu and Xu He and Zichen Wen and Conghui He and Xuming Hu and Linfeng Zhang and Rongbiao Wang and Gongzhe Qiu and Yu Hu and Yihua Kang},
@@ -26,14 +40,14 @@
   preview = {ImageBindDC.png}
 }
 
-@misc{wang2024meltrim,
+@inproceedings{wang2026meltrim,
   selected={true},
   title = {MelTrim},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2026},
   author = {Shaobo Wang and Tianle Niu and Xuan Ouyang and Xintong Li and Zhengkun Ge and Yue Min and Xiaoqian Liu and Hankun Wang and Linfeng Zhang},
-  year = {2024},
-  note = {Under Review at ACL ARR},
-  abstract = {ACL ARR submission by Shaobo Wang and Tianle Niu et al.},
-  description = {投稿至 ACL ARR，图像修复相关工作。},
+  year = {2026},
+  abstract = {ACL Findings 2026 paper by Shaobo Wang and Tianle Niu et al.},
+  description = {ACL Findings 2026 收录论文，图像修复相关工作。},
   keywords = {Image Restoration, NLP, ACL},
   preview = {MelTrim.png}
 }
