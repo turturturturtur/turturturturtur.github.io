@@ -1,52 +1,34 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "钮天乐"
+description = "深度学习 | 计算机视觉 | LLM | MLLM"
+last_updated = "2026年4月"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "钮天乐"
+title = "本科生"
+institution = "哈尔滨工业大学 未来技术学院"
 
 [social]
-location = "城市，国家"
+location = "黑龙江 哈尔滨"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "哈尔滨工业大学",
+  "黑龙江省哈尔滨市南岗区"
 ]
 
 [[navigation]]
-title = "关于我"
+title = "简介"
 type = "page"
 target = "about"
 href = "/"
 
 [[navigation]]
-title = "论文"
+title = "论文专利"
 type = "page"
 target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "奖项"
+title = "荣誉奖项"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "简历"
-type = "page"
-target = "cv"
-href = "/cv"

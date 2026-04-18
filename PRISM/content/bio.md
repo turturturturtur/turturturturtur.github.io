@@ -1,11 +1,11 @@
-我叫**钮天乐**，高中毕业于**北京四中**，本科就读于**哈尔滨工业大学 英才/未来技术学院**，计算机科学与技术专业，预计2027年毕业。
+My name is **Tianle Niu**. I graduated from **The Fourth High School of Beijing** and am currently an undergraduate student at **Harbin Institute of Technology, School of Elite/Future Technology**, majoring in Computer Science and Technology, expected to graduate in 2027.
 
-## 教育经历
+## Education
 
-- *2020.09 – 2023.06*　[北京市第四中学](http://bhsf.lezhiyun.com/cms/bjsz/index.htm)
-- *2023.09 – 2027.06*　[哈尔滨工业大学](https://www.hit.edu.cn/)，计算机科学与技术，本科在读
-- *2025.08 – 2026.01*　[瑞典皇家理工学院 (KTH Royal Institute of Technology)](https://www.kth.se/)，交换生
+- *2020.09 – 2023.06*　[The Fourth High School of Beijing](http://bhsf.lezhiyun.com/cms/bjsz/index.htm)
+- *2023.09 – 2027.06*　[Harbin Institute of Technology](https://www.hit.edu.cn/), Computer Science and Technology, B.Eng. (in progress)
+- *2025.08 – 2026.01*　[KTH Royal Institute of Technology](https://www.kth.se/), Exchange Student
 
-## 科研/实习经历
+## Research / Internship Experience
 
-- *2025 – 2026*　[上海交通大学](https://www.sjtu.edu.cn/)，科研实习，导师：[张林峰](https://scholar.google.com/citations?user=linfengz) 教授
+- *2025 – 2026*　[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), Research Intern, Supervisor: Prof. [Linfeng Zhang](https://scholar.google.com/citations?user=linfengz)

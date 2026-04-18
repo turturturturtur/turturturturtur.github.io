@@ -1,26 +1,26 @@
 type = "about"
-title = "简介"
+title = "About"
 
 [profile]
 research_interests = [
-  "多模态大语言模型 (MLLM)",
-  "数据蒸馏 (Data Distillation)",
-  "数据配比 (Data Mixing)",
-  "强化学习 (RL)",
-  "预训练 (Pre-training)",
-  "图像修复 (Image Restoration)"
+  "Multimodal Large Language Models (MLLM)",
+  "Data Distillation",
+  "Data Mixing",
+  "Reinforcement Learning (RL)",
+  "Pre-training",
+  "Image Restoration"
 ]
 
 [[sections]]
 id = "about"
 type = "markdown"
 source = "bio.md"
-title = "简介"
+title = "About"
 
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "论文"
+title = "Selected Publications"
 filter = "selected"
 limit = 5
 
@@ -28,10 +28,10 @@ limit = 5
 id = "patents"
 type = "markdown"
 source = "patents.md"
-title = "专利"
+title = "Patents"
 
 [[sections]]
 id = "news"
 type = "list"
-title = "动态"
+title = "News"
 source = "news.toml"

@@ -6,7 +6,7 @@
   year = {2025},
   url = {https://openreview.net/pdf?id=ibWIrx69yc},
   abstract = {Understanding and forecasting wall pressure on bluff bodies is crucial for assessing urban structural safety and infrastructure resilience. While recent studies have explored deep learning for predicting mean and fluctuating pressure coefficients, most existing frameworks are restricted to single-snapshot predictions and lack physical interpretability. This work introduces PresCast, a physics-constrained Fourier Kolmogorov-Arnold neural network (FKAN) designed for spatiotemporal wall pressure forecasting. FKAN integrates a Fourier neural operator within the Kolmogorov-Arnold architecture, and incorporates a physics-constrained frequency loss to guide the training process and enhance generalization to high-frequency dynamics. Wind tunnel experiments were conducted on a classical bluff body, a rectangular cylinder of side ratio 1.5 under zero angle of attack, using high-frequency pressure scanning, building a comprehensive dataset for training and validation. Results demonstrate that PresCast achieves accurate spatiotemporal forecasting of wall pressure, capturing both statistical properties and physical signatures, including temporal fluctuations, power spectral density, and spatial distribution.},
-  description = {NeurIPS 2025 paper on physics-constrained Fourier KAN for bluff body wall pressure spatiotemporal forecasting.},
+  description = {NeurIPS 2025 收录论文，基于物理约束傅里叶 KAN 的钝体壁面压力时空预测。},
   keywords = {Physics-Constrained, Fourier, Kolmogorov-Arnold Networks, Fluid Dynamics, NeurIPS},
   preview = {PreCast.png}
 }
@@ -21,7 +21,7 @@
   primaryClass = {cs.CV},
   url = {https://arxiv.org/abs/2410.01611v3},
   abstract = {Dataset Condensation (DC) seeks to select or distill samples from large datasets into smaller subsets while preserving performance on target tasks. Existing methods primarily focus on pruning or synthesizing data in the same format as the original dataset, typically being the input data and corresponding labels. However, in DC settings, we find it is possible to synthesize more information beyond the data-label pair as an additional learning target to facilitate model training. In this paper, we introduce Dataset Condensation using Privileged Information (DCPI), which enriches DC by synthesizing privileged information alongside the reduced dataset. This privileged information can take the form of feature labels or attention labels, providing auxiliary supervision to improve model learning. Our findings reveal that effective feature labels must balance between being overly discriminative and excessively diverse, with a moderate level proves optimal for improving the reduced dataset's efficacy. Extensive experiments on ImageNet-1K, CIFAR-10/100 and Tiny ImageNet demonstrate that DCPI integrates seamlessly with existing dataset condensation methods, offering significant performance gains.},
-  description = {arXiv preprint on dataset condensation with privileged information; co-first author.},
+  description = {arxiv 预印本，数据集压缩引入特权信息，共同一作。},
   keywords = {Dataset Condensation, Privileged Information, Data Distillation},
   preview = {DCPI.png}
 }
@@ -36,7 +36,7 @@
   primaryClass = {cs.CV},
   url = {https://arxiv.org/abs/2511.18831},
   abstract = {The scalability of video understanding models is increasingly limited by the prohibitive storage and computational costs of large-scale video datasets. While data synthesis has improved data efficiency in the image domain, its extension to video remains challenging due to pervasive temporal redundancy and complex spatiotemporal dynamics. In this work, we uncover a critical insight: the primary source of inefficiency in video datasets is not inter-sample redundancy, but intra-sample frame-level redundancy. To leverage this insight, we introduce VideoCompressa, a novel framework for video data synthesis that reframes the problem as dynamic latent compression. Specifically, VideoCompressa jointly optimizes a differentiable keyframe selector to identify the most informative frames, and a pretrained frozen VAE to compress these frames into compact, semantically rich latent codes. Experiments show that our method achieves unprecedented data efficiency: on UCF101 with ConvNets, VideoCompressa surpasses full-data training by 2.34% points using only 0.13% of the original data, with over 5800x speedup. Moreover, when fine-tuning Qwen2.5-7B-VL on HMDB51, VideoCompressa matches full-data performance using just 0.41% of the training data.},
-  description = {arXiv preprint on efficient video data synthesis framework; co-first author.},
+  description = {arxiv 预印本，视频数据高效合成框架，共同一作。},
   keywords = {Video Understanding, Data Distillation, Temporal Compression},
   preview = {VideoCompressa.svg}
 }
@@ -49,7 +49,7 @@
   year = {2026},
   url = {https://arxiv.org/abs/2511.08263},
   abstract = {Data condensation techniques aim to synthesize a compact dataset from a larger one to enable efficient model training, yet while successful in unimodal settings, they often fail in multimodal scenarios where preserving intricate inter-modal dependencies is crucial. To address this, we introduce ImageBindDC, a novel data condensation framework operating within the unified feature space of ImageBind. Our approach moves beyond conventional distribution-matching by employing a powerful Characteristic Function (CF) loss, which operates in the Fourier domain to facilitate a more precise statistical alignment via exact infinite moment matching. We design our objective to enforce three critical levels of distributional consistency: (i) uni-modal alignment, which matches the statistical properties of synthetic and real data within each modality; (ii) cross-modal alignment, which preserves pairwise semantics by matching the distributions of hybrid real-synthetic data pairs; and (iii) joint-modal alignment, which captures the complete multivariate data structure by aligning the joint distribution of real data pairs with their synthetic counterparts. Extensive experiments highlight the effectiveness of ImageBindDC: on the NYU-v2 dataset, a model trained on just 5 condensed datapoints per class achieves lossless performance comparable to one trained on the full dataset, achieving a new state-of-the-art with an 8.2\% absolute improvement over the previous best method and more than 4× less condensation time.},
-  description = {AAAI 2026 paper; first multimodal data condensation framework operating in ImageBind's unified feature space.},
+  description = {AAAI 2026 收录论文，首个基于 ImageBind 统一特征空间的多模态数据凝缩框架。},
   keywords = {Data Distillation, Multimodal, MLLM},
   preview = {ImageBindDC.png}
 }
@@ -61,7 +61,7 @@
   author = {Shaobo Wang and Tianle Niu and Xuan Ouyang and Xintong Li and Zhengkun Ge and Yue Min and Xiaoqian Liu and Hankun Wang and Linfeng Zhang},
   year = {2026},
   abstract = {ACL Findings 2026 paper by Shaobo Wang and Tianle Niu et al.},
-  description = {ACL Findings 2026 paper on coarse-to-fine speech data pruning; co-first author.},
+  description = {ACL Findings 2026 收录论文，粗到细两段式音频数据压缩框架，共同一作。},
   keywords = {Speech Classification, Data Pruning, NLP},
   preview = {MelTrim.png}
 }

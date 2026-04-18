@@ -1,75 +1,75 @@
 type = "card"
-title = "荣誉奖项"
-description = "所获荣誉、奖项与专利。"
+title = "Awards & Honors"
+description = "Honors, awards, and patents received."
 
 [[items]]
-title = "国家奖学金"
-subtitle = "教育部"
+title = "National Scholarship"
+subtitle = "Ministry of Education, China"
 date = "2024"
 content = ""
 
 [[items]]
-title = "院士奖学金（全校11人）"
-subtitle = "哈尔滨工业大学"
+title = "Academician Scholarship (11 recipients university-wide)"
+subtitle = "Harbin Institute of Technology"
 date = "2024"
 content = ""
 
 [[items]]
-title = "企业奖学金（全校5人）"
-subtitle = "哈尔滨工业大学"
+title = "Enterprise Scholarship (5 recipients university-wide)"
+subtitle = "Harbin Institute of Technology"
 date = "2024"
 content = ""
 
 [[items]]
-title = "哈工大十佳学习卓越之星"
-subtitle = "哈尔滨工业大学 第九届教学节学生学业支持奖项"
+title = "HIT Top Ten Academic Excellence Stars"
+subtitle = "Harbin Institute of Technology, 9th Teaching Festival Student Academic Support Award"
 date = "2025.06"
 content = ""
 
 [[items]]
-title = "中国移动第四届梧桐杯大数据创新大赛人工智能赛道"
-subtitle = "中国移动（本硕博组）"
+title = "China Mobile 4th Wutong Cup Big Data Innovation Competition — AI Track"
+subtitle = "China Mobile (Undergraduate/Graduate/PhD Group)"
 date = "2024.12"
-content = "全国二等奖"
+content = "National Second Prize"
 
 [[items]]
-title = "美国大学生数学建模竞赛 (MCM/ICM)"
+title = "MCM/ICM Mathematical Contest in Modeling"
 subtitle = "COMAP"
 date = "2025.05"
-content = "Meritorious Winner (M 奖)"
+content = "Meritorious Winner (M Prize)"
 
 [[items]]
-title = "高教杯全国大学生数学建模竞赛"
-subtitle = "教育部"
+title = "National College Students Mathematical Modeling Competition (CUMCM)"
+subtitle = "Ministry of Education, China"
 date = "2024.12"
-content = "省级一等奖"
+content = "Provincial First Prize"
 
 [[items]]
-title = "全国大学生创新创业产业赛道"
-subtitle = "全国"
+title = "National College Students Innovation & Entrepreneurship Industrial Track"
+subtitle = "National Level"
 date = "2024.10"
-content = "银奖"
+content = "Silver Award"
 
 [[items]]
-title = "第十七届全国大学生创新年会"
-subtitle = "全国大学生创新年会组委会（四川大学承办）"
+title = "17th National Annual Conference of College Students Innovation"
+subtitle = "National Conference Organizing Committee (hosted by Sichuan University)"
 date = "2024.11"
-content = "国创年会入选并展示（蚯蚓床污泥过程减量技术的市场化推广）"
+content = "Selected and presented (Earthworm Bed Sludge Volume Reduction Technology Market Promotion)"
 
 [[items]]
-title = "第十届全国大学生生物医学工程创新设计竞赛"
-subtitle = "中国生物医学工程学会"
+title = "10th National College Students Biomedical Engineering Innovation Design Competition"
+subtitle = "Chinese Society of Biomedical Engineering"
 date = "2025.07"
-content = "国家级一等奖"
+content = "National First Prize"
 
 [[items]]
-title = "CULSC 第十届全国大学生生命科学竞赛（科学探究类）"
-subtitle = "全国大学生生命科学竞赛委员会"
+title = "CULSC 10th National College Students Life Science Competition (Scientific Inquiry)"
+subtitle = "National College Students Life Science Competition Committee"
 date = "2025.07"
-content = "国家级二等奖"
+content = "National Second Prize"
 
 [[items]]
-title = "全国职业规划大赛"
-subtitle = "黑龙江省"
+title = "National Career Planning Competition"
+subtitle = "Heilongjiang Province"
 date = "2025.05"
-content = "黑龙江省冠军"
+content = "Heilongjiang Provincial Champion"

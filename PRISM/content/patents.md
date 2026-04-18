@@ -1,10 +1,10 @@
-- 钮天乐（第1发明人），一种降低卷积神经网络层间相似度的优化方法及其应用，申请号：CN202510939747.1，申请中。
-- 钮天乐（第1发明人），一种改良的深度可分离卷积神经网络及其应用，申请号：CN202510939734.4，申请中。
-- 钮天乐（第1发明人），一种轻量化实时超分辨率图像重建网络及其实现方法，申请号：CN202510939742.9，申请中。
-- 钮天乐（第1发明人），超分辨率工具箱，申请号：CN202510911834.6，申请中。
-- 钮天乐（第1发明人），一种面向端侧部署的图像超分辨率网络优化与容错处理方法，申请号：CN202511393793.0，申请中。
-- 钮天乐（第1发明人），基于梯度效用评分的时序数据帧层级冗余修剪方法及系统，申请号：CN202511393354.1，申请中。
-- 钮天乐（第1发明人），一种基于预训练判断模型的语音数据帧级效用修剪方法及系统，申请号：CN202511393357.5，申请中。
-- 钮天乐（第1发明人），一种基于UMAP与DBSCAN聚类的语音数据冗余过滤系统及方法，申请号：CN202511392791.1，申请中。
-- 钮天乐（第1发明人），一种面向语音识别的任务无关型语音数据剪枝方法及系统，申请号：CN202511393356.0，申请中。
-- 钮天乐（第1发明人），一种面向语音识别的多粒度数据剪枝方法及系统，申请号：CN202511393355.6，申请中。
+- Tianle Niu (1st inventor), An optimization method for reducing inter-layer similarity in convolutional neural networks and its application, Application No.: CN202510939747.1, Pending.
+- Tianle Niu (1st inventor), An improved depthwise separable convolutional neural network and its application, Application No.: CN202510939734.4, Pending.
+- Tianle Niu (1st inventor), A lightweight real-time super-resolution image reconstruction network and implementation method, Application No.: CN202510939742.9, Pending.
+- Tianle Niu (1st inventor), Super-resolution toolbox, Application No.: CN202510911834.6, Pending.
+- Tianle Niu (1st inventor), An image super-resolution network optimization and fault-tolerant processing method for edge deployment, Application No.: CN202511393793.0, Pending.
+- Tianle Niu (1st inventor), A temporal data frame-level redundancy pruning method and system based on gradient utility scoring, Application No.: CN202511393354.1, Pending.
+- Tianle Niu (1st inventor), A speech data frame-level utility pruning method and system based on a pretrained evaluation model, Application No.: CN202511393357.5, Pending.
+- Tianle Niu (1st inventor), A speech data redundancy filtering system and method based on UMAP and DBSCAN clustering, Application No.: CN202511392791.1, Pending.
+- Tianle Niu (1st inventor), A task-agnostic speech data pruning method and system for speech recognition, Application No.: CN202511393356.0, Pending.
+- Tianle Niu (1st inventor), A multi-granularity data pruning method and system for speech recognition, Application No.: CN202511393355.6, Pending.
