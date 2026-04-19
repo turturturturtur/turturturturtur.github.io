@@ -8,5 +8,5 @@ My name is **Tianle Niu**. I graduated from **The Fourth High School of Beijing*
 
 ## Research / Internship Experience
 
-- *2025 – 2026*　[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), Research Intern, Supervisor: Prof. [Linfeng Zhang](https://scholar.google.com/citations?user=AK9VF30AAAAJ&hl=zh-CN)
+- *2025.03 – Present*　[Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), Research Intern, Supervisor: Prof. [Linfeng Zhang](https://scholar.google.com/citations?user=AK9VF30AAAAJ&hl=zh-CN)
 - *2026.03 – 2026.06*　Peking University, Research Intern, Supervisor: Prof. [Wentao Zhang](https://scholar.google.com/citations?user=JE4VON0AAAAJ&hl=zh-CN)

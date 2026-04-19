@@ -8,5 +8,5 @@
 
 ## 科研/实习经历
 
-- *2025 – 2026*　[上海交通大学](https://www.sjtu.edu.cn/)，科研实习，导师：[张林峰](https://scholar.google.com/citations?user=AK9VF30AAAAJ&hl=zh-CN) 教授
+- *2025.3 - 至今*　[上海交通大学](https://www.sjtu.edu.cn/)，科研实习，导师：[张林峰](https://scholar.google.com/citations?user=AK9VF30AAAAJ&hl=zh-CN) 教授
 - *2026.03 – 2026.06*　北京大学，科研实习，导师：[张文涛](https://scholar.google.com/citations?user=JE4VON0AAAAJ&hl=zh-CN) 教授
