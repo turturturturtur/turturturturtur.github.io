@@ -21,6 +21,7 @@ export interface LocaleMessages {
     googleMap: string;
     send: string;
     sendEmail: string;
+    xiaohongshu: string;
     researchInterests: string;
     like: string;
     liked: string;
@@ -44,7 +45,6 @@ export interface LocaleMessages {
   };
   footer: {
     lastUpdated: string;
-    builtWithPrism: string;
   };
 }
 
@@ -71,6 +71,7 @@ const en: LocaleMessages = {
     googleMap: 'Google Map',
     send: 'Send',
     sendEmail: 'Send Email',
+    xiaohongshu: 'Xiaohongshu',
     researchInterests: 'Research Interests',
     like: 'Like',
     liked: 'Liked',
@@ -94,7 +95,6 @@ const en: LocaleMessages = {
   },
   footer: {
     lastUpdated: 'Last updated',
-    builtWithPrism: 'Built with PRISM',
   },
 };
 
@@ -121,6 +121,7 @@ const zh: LocaleMessages = {
     googleMap: '谷歌地图',
     send: '发送',
     sendEmail: '发送邮件',
+    xiaohongshu: '小红书',
     researchInterests: '研究兴趣',
     like: '点赞',
     liked: '已点赞',
@@ -144,7 +145,6 @@ const zh: LocaleMessages = {
   },
   footer: {
     lastUpdated: '最近更新',
-    builtWithPrism: '由 PRISM 构建',
   },
 };
 

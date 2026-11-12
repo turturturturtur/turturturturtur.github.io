@@ -13,6 +13,9 @@ interface SectionConfig {
   source?: string;
   filter?: string;
   limit?: number;
+  extra_source?: string;
+  extra_title?: string;
+  extra_content?: string;
   content?: string;
   publications?: Publication[];
   items?: NewsItem[];
@@ -25,7 +28,7 @@ interface NewsItem {
 
 type PageData =
   | { type: 'about'; id: string; sections: SectionConfig[] }
-  | { type: 'publication'; id: string; config: PublicationPageConfig; publications: Publication[] }
+  | { type: 'publication'; id: string; config: PublicationPageConfig; publications: Publication[]; extra_content?: string }
   | { type: 'text'; id: string; config: TextPageConfig; content: string }
   | { type: 'card'; id: string; config: CardPageConfig };
 
@@ -46,6 +49,9 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         return {
           ...section,
           publications: filteredPubs.slice(0, section.limit || 5),
+          extra_content: section.extra_source
+            ? getMarkdownContent(section.extra_source, locale)
+            : undefined,
         };
       }
       case 'list': {
@@ -95,6 +101,9 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
             id: item.target,
             config: pubConfig,
             publications: parseBibTeX(bibtex, locale),
+            extra_content: pubConfig.extra_source
+              ? getMarkdownContent(pubConfig.extra_source, locale)
+              : undefined,
           } as PageData;
         }
 

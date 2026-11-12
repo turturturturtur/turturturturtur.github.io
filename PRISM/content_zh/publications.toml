@@ -1,4 +1,5 @@
 type = "publication"
-title = "论文"
-description = "我的科研成果。"
+title = "论文专利"
 source = "publications.bib"
+extra_source = "patents.md"
+extra_title = "专利"

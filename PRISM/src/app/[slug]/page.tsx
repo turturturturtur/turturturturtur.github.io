@@ -27,6 +27,9 @@ function loadDynamicPageData(slug: string, locale?: string): DynamicPageLocaleDa
       type: 'publication',
       config: pubConfig,
       publications: parseBibTeX(bibtex, locale),
+      extra_content: pubConfig.extra_source
+        ? getMarkdownContent(pubConfig.extra_source, locale)
+        : undefined,
     };
   }
 

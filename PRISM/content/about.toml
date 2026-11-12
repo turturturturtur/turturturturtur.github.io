@@ -12,26 +12,20 @@ research_interests = [
 ]
 
 [[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"
+
+[[sections]]
 id = "about"
 type = "markdown"
 source = "bio.md"
 title = "About"
 
 [[sections]]
-id = "featured_publications"
+id = "featured_research"
 type = "publications"
-title = "Selected Publications"
+title = "Selected Research Outputs"
 filter = "selected"
 limit = 5
-
-[[sections]]
-id = "patents"
-type = "markdown"
-source = "patents.md"
-title = "Patents"
-
-[[sections]]
-id = "news"
-type = "list"
-title = "News"
-source = "news.toml"

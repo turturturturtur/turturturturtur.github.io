@@ -15,34 +15,10 @@ date = "2024"
 content = ""
 
 [[items]]
-title = "Enterprise Scholarship (5 recipients university-wide)"
-subtitle = "Harbin Institute of Technology"
-date = "2024"
+title = "UNIQLO Scholarship (5 recipients university-wide)"
+subtitle = "Harbin Institute of Technology, Enterprise Scholarship"
+date = "2024.05"
 content = ""
-
-[[items]]
-title = "HIT Top Ten Academic Excellence Stars"
-subtitle = "Harbin Institute of Technology, 9th Teaching Festival Student Academic Support Award"
-date = "2025.06"
-content = ""
-
-[[items]]
-title = "China Mobile 4th Wutong Cup Big Data Innovation Competition — AI Track"
-subtitle = "China Mobile (Undergraduate/Graduate/PhD Group)"
-date = "2024.12"
-content = "National Second Prize"
-
-[[items]]
-title = "MCM/ICM Mathematical Contest in Modeling"
-subtitle = "COMAP"
-date = "2025.05"
-content = "Meritorious Winner (M Prize)"
-
-[[items]]
-title = "National College Students Mathematical Modeling Competition (CUMCM)"
-subtitle = "Ministry of Education, China"
-date = "2024.12"
-content = "Provincial First Prize"
 
 [[items]]
 title = "National College Students Innovation & Entrepreneurship Industrial Track"
@@ -57,6 +33,36 @@ date = "2024.11"
 content = "Selected and presented (Earthworm Bed Sludge Volume Reduction Technology Market Promotion)"
 
 [[items]]
+title = "China Mobile 4th Wutong Cup Big Data Innovation Competition — AI Track"
+subtitle = "China Mobile (Undergraduate/Graduate/PhD Group)"
+date = "2024.12"
+content = "National Second Prize"
+
+[[items]]
+title = "National College Students Mathematical Modeling Competition (CUMCM)"
+subtitle = "Ministry of Education, China"
+date = "2024.12"
+content = "Provincial First Prize"
+
+[[items]]
+title = "MCM/ICM Mathematical Contest in Modeling"
+subtitle = "COMAP"
+date = "2025.05"
+content = "Meritorious Winner (M Prize)"
+
+[[items]]
+title = "National Career Planning Competition"
+subtitle = "Heilongjiang Province"
+date = "2025.05"
+content = "Heilongjiang Provincial Champion"
+
+[[items]]
+title = "HIT Top Ten Academic Excellence Stars (10 recipients university-wide)"
+subtitle = "Harbin Institute of Technology, 9th Teaching Festival Student Academic Support Award"
+date = "2025.06"
+content = ""
+
+[[items]]
 title = "10th National College Students Biomedical Engineering Innovation Design Competition"
 subtitle = "Chinese Society of Biomedical Engineering"
 date = "2025.07"
@@ -69,7 +75,19 @@ date = "2025.07"
 content = "National Second Prize"
 
 [[items]]
-title = "National Career Planning Competition"
+title = "BYD Scholarship (5 recipients university-wide)"
+subtitle = "Harbin Institute of Technology, Enterprise Scholarship"
+date = "2025.11"
+content = ""
+
+[[items]]
+title = "Heilongjiang Provincial Merit Student"
 subtitle = "Heilongjiang Province"
-date = "2025.05"
-content = "Heilongjiang Provincial Champion"
+date = "2026.05"
+content = ""
+
+[[items]]
+title = "Tmall Global AI Hackathon University Challenge — Efficiency Evolution Track"
+subtitle = "Tmall"
+date = "2026.11"
+content = "Champion"

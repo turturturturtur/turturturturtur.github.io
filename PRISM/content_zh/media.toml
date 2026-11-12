@@ -1,0 +1,29 @@
+type = "card"
+columns = 2
+clamp_lines = 5
+title = "媒体采访"
+description = "报道与提及钮天乐的文章，主要发布于微信公众号。"
+
+[[items]]
+title = "喜报｜未来技术学院学子钮天乐带队斩获天猫 AI 黑客松效率进化赛道冠军"
+subtitle = "哈尔滨工业大学未来技术学院 微信公众号"
+date = "2026.11"
+image = "/media/hit-tmall-ai-hackathon-2026.jpg"
+link = "https://weixin.sogou.com/weixin?type=2&query=%E5%96%9C%E6%8A%A5%7C%E6%9C%AA%E6%9D%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E5%AD%A6%E5%AD%90%E9%92%AE%E5%A4%A9%E4%B9%90%E5%B8%A6%E9%98%9F%E6%96%A9%E8%8E%B7%E5%A4%A9%E7%8C%AB%20AI%20%E9%BB%91%E5%AE%A2%E6%9D%BE%E6%95%88%E7%8E%87%E8%BF%9B%E5%8C%96%E8%B5%9B%E9%81%93%E5%86%A0%E5%86%9B"
+content = "天猫 AI 黑客松·高校挑战赛杭州决赛，钮天乐带队以多模态大模型作品「科铸」夺得效率进化赛道冠军，并获联想品牌心选奖。"
+
+[[items]]
+title = "超优秀！职业规划大赛决赛入围选手个人展示"
+subtitle = "HIT环境youth 微信公众号"
+date = "2023.11"
+image = "/media/hit-career-planning-profile-2023.jpg"
+link = "https://weixin.sogou.com/weixin?type=2&query=%E8%B6%85%E4%BC%98%E7%A7%80%21%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%E5%A4%A7%E8%B5%9B%E5%86%B3%E8%B5%9B%E5%85%A5%E5%9B%B4%E9%80%89%E6%89%8B%E4%B8%AA%E4%BA%BA%E5%B1%95%E7%A4%BA"
+content = "哈尔滨工业大学第九届职业生涯规划大赛决赛入围选手展示，收录未来技术学院 2023 级本科生钮天乐的成长赛道参赛作品与个人简介。"
+
+[[items]]
+title = "决赛｜哈尔滨工业大学第九届职业生涯规划大赛决赛震撼来袭！"
+subtitle = "哈工大就业 微信公众号"
+date = "2023.11"
+image = "/media/hit-career-planning-final-2023.jpg"
+link = "https://weixin.sogou.com/weixin?type=2&query=%E5%86%B3%E8%B5%9B%7C%E5%93%88%E5%B0%94%E6%BB%A8%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6%E7%AC%AC%E4%B9%9D%E5%B1%8A%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF%E8%A7%84%E5%88%92%E5%A4%A7%E8%B5%9B%E5%86%B3%E8%B5%9B%E9%9C%87%E6%92%BC%E6%9D%A5%E8%A2%AD%21"
+content = "哈工大第九届职业生涯规划大赛决赛预告与选手名单，钮天乐代表未来技术学院进入成长赛道决赛。"

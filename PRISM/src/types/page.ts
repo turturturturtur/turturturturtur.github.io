@@ -7,6 +7,8 @@ export interface BasePageConfig {
 export interface PublicationPageConfig extends BasePageConfig {
     type: 'publication';
     source: string;
+    extra_source?: string;
+    extra_title?: string;
 }
 
 export interface TextPageConfig extends BasePageConfig {
@@ -26,5 +28,7 @@ export interface CardItem {
 
 export interface CardPageConfig extends BasePageConfig {
     type: 'card';
+    columns?: number;
+    clamp_lines?: number;
     items: CardItem[];
 }

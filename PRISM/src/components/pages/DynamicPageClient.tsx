@@ -12,7 +12,7 @@ import {
 import { useLocaleStore } from '@/lib/stores/localeStore';
 
 export type DynamicPageLocaleData =
-  | { type: 'publication'; config: PublicationPageConfig; publications: Publication[] }
+  | { type: 'publication'; config: PublicationPageConfig; publications: Publication[]; extra_content?: string }
   | { type: 'text'; config: TextPageConfig; content: string }
   | { type: 'card'; config: CardPageConfig };
 
@@ -33,7 +33,12 @@ export default function DynamicPageClient({ dataByLocale, defaultLocale }: Dynam
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {pageData.type === 'publication' && (
-        <PublicationsList config={pageData.config} publications={pageData.publications} />
+        <PublicationsList
+          config={pageData.config}
+          publications={pageData.publications}
+          extraTitle={pageData.config.extra_title}
+          extraContent={pageData.extra_content}
+        />
       )}
       {pageData.type === 'text' && (
         <TextPage config={pageData.config} content={pageData.content} />

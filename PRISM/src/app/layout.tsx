@@ -55,7 +55,10 @@ function buildLocaleBootstrapScript(config: ReturnType<typeof getRuntimeI18nConf
 
       let resolved = null;
 
-      if (cfg.persist) {
+      const params = new URLSearchParams(window.location.search);
+      resolved = matchLocale(params.get('lang')) || matchLocale(params.get('locale'));
+
+      if (!resolved && cfg.persist) {
         resolved = matchLocale(localStorage.getItem(storageKey));
       }
 

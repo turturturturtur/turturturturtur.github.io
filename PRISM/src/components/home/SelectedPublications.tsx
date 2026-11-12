@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import MarkdownBlock from '@/components/ui/MarkdownBlock';
 import { Publication } from '@/types/publication';
 import { useMessages } from '@/lib/i18n/useMessages';
 
@@ -9,9 +10,11 @@ interface SelectedPublicationsProps {
     publications: Publication[];
     title?: string;
     enableOnePageMode?: boolean;
+    extraTitle?: string;
+    extraContent?: string;
 }
 
-export default function SelectedPublications({ publications, title, enableOnePageMode = false }: SelectedPublicationsProps) {
+export default function SelectedPublications({ publications, title, enableOnePageMode = false, extraTitle, extraContent }: SelectedPublicationsProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.selectedPublications;
 
@@ -46,7 +49,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
                         <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-1">
                             {pub.authors.map((author, idx) => (
                                 <span key={idx}>
-                                    <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-400'}` : ''}`}>
+                                    <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-500'}` : ''}`}>
                                         {author.name}
                                     </span>
                                     {author.isCorresponding && (
@@ -67,6 +70,8 @@ export default function SelectedPublications({ publications, title, enableOnePag
                     </motion.div>
                 ))}
             </div>
+
+            <MarkdownBlock title={extraTitle} content={extraContent} titleAs="h3" />
         </motion.section>
     );
 }

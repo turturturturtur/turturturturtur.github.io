@@ -19,6 +19,9 @@ interface SectionConfig {
   source?: string;
   filter?: string;
   limit?: number;
+  extra_source?: string;
+  extra_title?: string;
+  extra_content?: string;
   content?: string;
   publications?: Publication[];
   items?: NewsItem[];
@@ -26,7 +29,7 @@ interface SectionConfig {
 
 type PageData =
   | { type: 'about'; id: string; sections: SectionConfig[] }
-  | { type: 'publication'; id: string; config: PublicationPageConfig; publications: Publication[] }
+  | { type: 'publication'; id: string; config: PublicationPageConfig; publications: Publication[]; extra_content?: string }
   | { type: 'text'; id: string; config: TextPageConfig; content: string }
   | { type: 'card'; id: string; config: CardPageConfig };
 
@@ -85,6 +88,8 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                         publications={section.publications || []}
                         title={section.title}
                         enableOnePageMode={data.enableOnePageMode}
+                        extraTitle={section.extra_title}
+                        extraContent={section.extra_content}
                       />
                     );
                   case 'list':
@@ -104,6 +109,8 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                   config={page.config}
                   publications={page.publications}
                   embedded={true}
+                  extraTitle={page.config.extra_title}
+                  extraContent={page.extra_content}
                 />
               )}
               {page.type === 'text' && (

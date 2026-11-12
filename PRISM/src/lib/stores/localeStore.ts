@@ -47,7 +47,21 @@ function clearPersistedLocale() {
   }
 }
 
+function readUrlLocale(locales: string[]): string | null {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    return matchLocale(params.get('lang'), locales) || matchLocale(params.get('locale'), locales);
+  } catch {
+    return null;
+  }
+}
+
 function resolveInitialLocale(config: I18nRuntimeConfig): string {
+  const urlLocale = readUrlLocale(config.locales);
+  if (urlLocale) {
+    return urlLocale;
+  }
+
   const bootLocale = matchLocale(document.documentElement.getAttribute('data-locale'), config.locales);
   if (bootLocale) {
     return bootLocale;

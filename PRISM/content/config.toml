@@ -2,25 +2,20 @@
 title = "Tianle Niu"
 description = "Deep Learning | Computer Vision | LLM | MLLM"
 favicon = "/favicon.svg"
-last_updated = "April 2026"
+last_updated = "November 2026"
 
 [author]
 name = "Tianle Niu"
 title = "Undergraduate Student"
 institution = "Harbin Institute of Technology, School of Future Technology"
-avatar = "/avatar.svg"
+avatar = "/avatar.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
 email = "2023110605@stu.hit.edu.cn"
-location = "Harbin, Heilongjiang"
-location_url = "https://maps.google.com/?q=Harbin+Institute+of+Technology"
-location_details = [
-  "Harbin Institute of Technology",
-  "Nangang District, Harbin, Heilongjiang"
-]
 github = "https://github.com/turturturturtur"
+xiaohongshu = "https://www.xiaohongshu.com/user/profile/62f39d0b000000001e01de71"
 cv = "/cv.pdf"
 
 [features]
@@ -58,3 +53,9 @@ title = "Awards"
 type = "page"
 target = "awards"
 href = "/awards"
+
+[[navigation]]
+title = "Media Coverage"
+type = "page"
+target = "media"
+href = "/media"

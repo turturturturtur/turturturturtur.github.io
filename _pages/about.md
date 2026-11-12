@@ -36,31 +36,38 @@ redirect_from:
 
 # 📝 科研论文
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/VideoCompressa.svg' alt="images/VideoCompressa.svg" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/VideoCompressa.svg' alt="VideoCompressa" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Shaobo Wang* , `Tianle Niu*` , Runkang Yang , Deshan Liu , Xu He , Zichen Wen , Conghui He , Xuming Hu , and Linfeng Zhang, Rongbiao Wang, Gongzhe Qiu, Yu Hu, Yihua Kang.
+- **VideoCompressa: Data-Efficient Video Understanding via Joint Temporal Compression and Spatial Reconstruction**
+  Shaobo Wang\*, `Tianle Niu`\*, Runkang Yang, Deshan Liu, Xu He, Zichen Wen, Conghui He, Xuming Hu, Linfeng Zhang
+  *arXiv preprint*（共同一作）
   [[预览]](https://arxiv.org/abs/2511.18831)
 
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ImageBindDC.png' alt="images/ImageBindDC.png" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/ImageBindDC.png' alt="ImageBindDC" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Shaobo Wang, `Tianle Niu`, Runkang Yang, Deshan Liu, Xu He, Zichen Wen, Conghui He, Xuming Hu, Linfeng Zhang
-  [[预览]](https://www.arxiv.org/abs/2511.08263)
+- **ImageBindDC: Compressing Multi-Modal Data with ImageBind-Based Condensation**
+  Yue Min, Shaobo Wang, Jiaze Li, `Tianle Niu`, Junxin Fan, Yongliang Miao, Lijin Yang, Linfeng Zhang
+  *Proceedings of the AAAI Conference on Artificial Intelligence* (AAAI 2026)
+  [[预览]](https://arxiv.org/abs/2511.08263)
 
 </div>
 </div>
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL ARRing</div><img src='images/MelTrim.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL Findings 2026</div><img src='images/MelTrim.png' alt="MelTrim" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Shaobo Wang, `Tianle Niu`, Xuan Ouyang, Xintong Li, Zhengkun Ge, Yue Min, Xiaoqian Liu, Hankun Wang, Linfeng Zhang 
+- **MelTrim: Coarse-to-Fine Data Pruning for Speech Classification**
+  Shaobo Wang\*, `Tianle Niu`\*, Xuan Ouyang\*, Xintong Li, Zhengkun Ge, Yue Min, Xiaoqian Liu, Hankun Wang, Linfeng Zhang
+  *Findings of the Association for Computational Linguistics: ACL 2026*, San Diego, pp. 13751–13765（共同一作）
+  [[论文]](https://aclanthology.org/2026.findings-acl.672/) [[PDF]](https://aclanthology.org/2026.findings-acl.672.pdf)
 
 </div>
 </div>

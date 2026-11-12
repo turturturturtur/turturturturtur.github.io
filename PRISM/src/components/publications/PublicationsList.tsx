@@ -15,14 +15,27 @@ import { Publication } from '@/types/publication';
 import { PublicationPageConfig } from '@/types/page';
 import { cn } from '@/lib/utils';
 import { useMessages } from '@/lib/i18n/useMessages';
+import MarkdownBlock from '@/components/ui/MarkdownBlock';
 
 interface PublicationsListProps {
     config: PublicationPageConfig;
     publications: Publication[];
     embedded?: boolean;
+    extraTitle?: string;
+    extraContent?: string;
 }
 
-export default function PublicationsList({ config, publications, embedded = false }: PublicationsListProps) {
+// Some venues already carry the year (e.g. "Findings of ...: ACL 2026"), so only
+// append it when it is not already there.
+function formatVenue(pub: Publication): string {
+    const venue = pub.journal || pub.conference || '';
+    if (!venue) {
+        return String(pub.year);
+    }
+    return new RegExp(`(^|\\D)${pub.year}\\s*$`).test(venue) ? venue : `${venue} ${pub.year}`;
+}
+
+export default function PublicationsList({ config, publications, embedded = false, extraTitle, extraContent }: PublicationsListProps) {
     const messages = useMessages();
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedYear, setSelectedYear] = useState<number | 'all'>('all');
@@ -230,7 +243,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         ))}
                                     </p>
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
-                                        {pub.journal || pub.conference} {pub.year}
+                                        {formatVenue(pub)}
                                     </p>
 
                                     {pub.description && (
@@ -338,6 +351,8 @@ export default function PublicationsList({ config, publications, embedded = fals
                     ))
                 )}
             </div>
+
+            <MarkdownBlock title={extraTitle} content={extraContent} />
         </motion.div>
     );
 }

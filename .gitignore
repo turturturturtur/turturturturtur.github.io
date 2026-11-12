@@ -1,3 +1,9 @@
 _site/
 push.sh
 .DS_Store
+
+# Jekyll 构建缓存（根目录站点已退役）
+.sass-cache/
+
+# 本地备份，不入库
+PRISM/backups/
