@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import Link from 'next/link';
 import MarkdownBlock from '@/components/ui/MarkdownBlock';
 import { Publication } from '@/types/publication';
@@ -13,6 +14,8 @@ interface SelectedPublicationsProps {
     extraTitle?: string;
     extraContent?: string;
 }
+
+const VENUE_BADGE_CLASSES = 'rounded bg-blue-600 px-2 py-1 text-xs font-semibold leading-none text-white shadow-md';
 
 export default function SelectedPublications({ publications, title, enableOnePageMode = false, extraTitle, extraContent }: SelectedPublicationsProps) {
     const messages = useMessages();
@@ -34,39 +37,59 @@ export default function SelectedPublications({ publications, title, enableOnePag
                     {messages.home.viewAll} →
                 </Link>
             </div>
-            <div className="space-y-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {publications.map((pub, index) => (
                     <motion.div
                         key={pub.id}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.4, delay: 0.1 * index }}
-                        className="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                        className="group flex h-full flex-col overflow-hidden rounded-lg border border-neutral-200 bg-neutral-50 shadow-sm transition-all duration-200 hover:shadow-lg dark:border-[rgba(148,163,184,0.24)] dark:bg-neutral-800"
                     >
-                        <h3 className="font-semibold text-primary mb-2 leading-tight">
-                            {pub.title}
-                        </h3>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-1">
-                            {pub.authors.map((author, idx) => (
-                                <span key={idx}>
-                                    <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-500'}` : ''}`}>
-                                        {author.name}
+                        {pub.firstPage && (
+                            <div className="relative aspect-[3/4] w-full shrink-0 overflow-hidden bg-white">
+                                <Image
+                                    src={`/papers/firstpage/${pub.firstPage}`}
+                                    alt={pub.title}
+                                    fill
+                                    sizes="(max-width: 640px) 100vw, 350px"
+                                    className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
+                                />
+                                {pub.venueTag && (
+                                    <span className={`absolute left-2 top-2 ${VENUE_BADGE_CLASSES}`}>
+                                        {pub.venueTag}
                                     </span>
-                                    {author.isCorresponding && (
-                                        <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : 'text-neutral-600 dark:text-neutral-500'}`}>†</sup>
-                                    )}
-                                    {idx < pub.authors.length - 1 && ', '}
-                                </span>
-                            ))}
-                        </p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
-                            {pub.journal || pub.conference}
-                        </p>
-                        {pub.description && (
-                            <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
-                                {pub.description}
-                            </p>
+                                )}
+                            </div>
                         )}
+                        <div className="flex flex-1 flex-col p-4">
+                            {!pub.firstPage && pub.venueTag && (
+                                <span className={`mb-2 self-start ${VENUE_BADGE_CLASSES}`}>
+                                    {pub.venueTag}
+                                </span>
+                            )}
+                            <h3 className="font-semibold text-primary mb-2 leading-tight line-clamp-3">
+                                {pub.title}
+                            </h3>
+                            <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-1 line-clamp-2">
+                                {pub.authors.map((author, idx) => (
+                                    <span key={idx}>
+                                        <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-500'}` : ''}`}>
+                                            {author.name}
+                                        </span>
+                                        {author.isCorresponding && (
+                                            <sup className={`ml-0 ${author.isHighlighted ? 'text-accent' : 'text-neutral-600 dark:text-neutral-500'}`}>†</sup>
+                                        )}
+                                        {idx < pub.authors.length - 1 && ', '}
+                                    </span>
+                                ))}
+                            </p>
+                            {pub.description && (
+                                <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
+                                    {pub.description}
+                                </p>
+                            )}
+                        </div>
                     </motion.div>
                 ))}
             </div>

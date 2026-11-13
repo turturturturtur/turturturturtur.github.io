@@ -61,6 +61,8 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
 
     // Parse preview field (remove braces if present)
     const preview = tags.preview?.replace(/[{}]/g, '');
+    const firstPage = tags.first_page?.replace(/[{}]/g, '');
+    const venueTag = cleanBibTeXString(tags.venue_tag);
 
     // Create publication object
     const publication: Publication = {
@@ -88,9 +90,11 @@ export function parseBibTeX(bibtexContent: string, locale?: string): Publication
       description: cleanBibTeXString(tags.description || tags.note),
       selected,
       preview,
+      firstPage,
+      venueTag,
 
       // Store original BibTeX (excluding custom fields)
-      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'description', 'keywords', 'code']),
+      bibtex: reconstructBibTeX(entry, ['selected', 'preview', 'first_page', 'venue_tag', 'description', 'keywords', 'code']),
     };
 
     // Clean up undefined fields

@@ -1,6 +1,5 @@
 type = "card"
 title = "Awards & Honors"
-description = "Honors, awards, and patents received."
 
 [[items]]
 title = "National Scholarship"

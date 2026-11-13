@@ -2,7 +2,14 @@ type = "card"
 columns = 2
 clamp_lines = 5
 title = "Media Coverage"
-description = "News coverage and articles mentioning Tianle Niu, mainly published on WeChat official accounts."
+
+[[items]]
+title = "Plan Before Acting: A Closer Look at Tianle Niu's University Journey"
+subtitle = "Harbin Institute of Technology · WeChat Official Account"
+date = "2026.11"
+image = "/media/hit-university-journey-2026.jpg"
+link = "https://mp.weixin.qq.com/s/ELcX6tq9-yLQ2LTQrzzAzA"
+content = "Profile in Harbin Institute of Technology's university-level WeChat account: first in his major with a 95.7 average over three years, a half-year exchange at KTH Royal Institute of Technology, three accepted CCF-A papers, and a national-level innovation project selected for the 17th National Annual Conference of College Students Innovation."
 
 [[items]]
 title = "Good News | Tianle Niu of the School of Future Technology Leads Team to Win the Tmall AI Hackathon Efficiency Evolution Track"
@@ -11,6 +18,38 @@ date = "2026.11"
 image = "/media/hit-tmall-ai-hackathon-2026.jpg"
 link = "https://weixin.sogou.com/weixin?type=2&query=%E5%96%9C%E6%8A%A5%7C%E6%9C%AA%E6%9D%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E5%AD%A6%E5%AD%90%E9%92%AE%E5%A4%A9%E4%B9%90%E5%B8%A6%E9%98%9F%E6%96%A9%E8%8E%B7%E5%A4%A9%E7%8C%AB%20AI%20%E9%BB%91%E5%AE%A2%E6%9D%BE%E6%95%88%E7%8E%87%E8%BF%9B%E5%8C%96%E8%B5%9B%E9%81%93%E5%86%A0%E5%86%9B"
 content = "Tmall AI Hackathon collegiate finals in Hangzhou: Niu led his team to the Efficiency Evolution track title with the multimodal LLM Kezhu, and won the Lenovo Brand Choice Award."
+
+[[items]]
+title = "HIT's Choices of Youth Report Meeting on Advanced Student Deeds, Discussing the Vanguard Spirit"
+subtitle = "HIT Lianxiaoluo · WeChat Official Account"
+date = "2026.09"
+image = "/media/hit-youth-choice-forum-2026.jpg"
+link = "https://mp.weixin.qq.com/s/ncH0sQdCCVKk_tmpgDA_HQ"
+content = "Announcement of HIT's Choices of Youth report meeting on advanced student deeds, listing Niu among the featured representatives of the first campus."
+
+[[items]]
+title = "Good News! Tianle Niu and Hongyu Zhu Win Gold at the Heilongjiang Provincial College Student Career Planning Competition"
+subtitle = "HIT School of Future Technology · WeChat Official Account"
+date = "2025.03"
+image = "/media/hit-career-planning-gold-2025.jpg"
+link = "https://mp.weixin.qq.com/s/RZQyC99hMEUPRU9TFWAnYA"
+content = "At the Heilongjiang finals of the 2nd National College Student Career Planning Competition, Niu ranked first among provincial undergraduates in the growth track, winning gold."
+
+[[items]]
+title = "Stars of the Future | Episode 2 — Tianle Niu: Steadfast Ambition and Diligent Learning for the Future"
+subtitle = "HIT School of Future Technology · WeChat Official Account"
+date = "2024.11"
+image = "/media/hit-star-of-future-2024.jpg"
+link = "https://mp.weixin.qq.com/s/kh6HYnZqmbcbE0QgiR1LxA"
+content = "Second profile in the School of Future Technology's Stars of the Future series: Tianle Niu of the 2023-cohort elite class, top 1% with a 97.136 average and a National Scholarship."
+
+[[items]]
+title = "HIT's Future Technology Intelligence+ 2024 International Summer School Concludes"
+subtitle = "HIT School of Future Technology · WeChat Official Account"
+date = "2024.07"
+image = "/media/hit-intl-summer-school-2024.jpg"
+link = "https://mp.weixin.qq.com/s/3VA9OXFsSiFBg1If7ybuRQ"
+content = "Closing of HIT's Future Technology Intelligence+ 2024 International Summer School, where Niu spoke as the student representative on what he gained from the seven-day programme."
 
 [[items]]
 title = "Outstanding! Finalist Profiles of the Career Planning Competition"

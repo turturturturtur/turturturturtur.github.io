@@ -42,6 +42,8 @@ export interface Publication {
   featured?: boolean;
   selected?: boolean;
   preview?: string;
+  firstPage?: string;
+  venueTag?: string;
   summary?: string;
   researchArea: ResearchArea;
   description?: string;

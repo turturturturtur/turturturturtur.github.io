@@ -106,7 +106,7 @@ rm -rf out && npm run build && npx --yes serve out -l 4000
    diff <(grep -E '^(type|source|extra_source) *=' content/publications.toml) <(grep -E '^(type|source|extra_source) *=' content_zh/publications.toml)
    # 论文条目 key、顺序、字段序列是否一致
    diff <(grep -oE '^@[a-z]+\{[^,]+' content/publications.bib) <(grep -oE '^@[a-z]+\{[^,]+' content_zh/publications.bib)
-   diff <(grep -oE '^\s*[a-zA-Z]+ =' content/publications.bib) <(grep -oE '^\s*[a-zA-Z]+ =' content_zh/publications.bib)
+   diff <(grep -oE '^\s*[a-zA-Z_]+ =' content/publications.bib) <(grep -oE '^\s*[a-zA-Z_]+ =' content_zh/publications.bib)
    # 英文目录里不应残留中文（config.toml 的语言标签除外）
    grep -rnP '[\x{4e00}-\x{9fff}]' content/
    ```
@@ -147,3 +147,4 @@ rm -rf out && npm run build && npx --yes serve out -l 4000
 4. **共同一作在 bib 的 `author` 里用 `#` 标记**（如 `Shaobo Wang# and Tianle Niu#`），渲染为下划线；通讯作者目前不标。标记必须有论文首页脚注依据，不要凭印象加。
 5. **`booktitle` 保留官方写法（含年份也没关系）。** 列表页由 `PublicationsList.tsx` 的 `formatVenue()` 负责去重，不要为了让显示好看而手动删掉会议名里的年份，否则复制出去的 BibTeX 就不规范了。
 6. **两份 bib 除 `description` 外必须逐字相同。** 改一篇论文要同时改 `content/publications.bib` 和 `content_zh/publications.bib`，条目 key、顺序、字段集合、`title` / `author` / `abstract` / `doi` 等全部一致，只有 `description` 是中英文各写一版。摘要两种语言都保留英文原文，与其余条目一致。
+7. **首页精选论文卡片靠 `first_page` + `venue_tag` 两个自定义字段渲染**（`SelectedPublications.tsx`）。`first_page` 是论文首页截图的文件名，图片放 `PRISM/public/papers/firstpage/`，与列表页的 `preview` 预览图是两套图，新增论文时两个字段都要给；截图一律取正式版本首页（已发表取出版社 / ACL Anthology 版，预印本取 arXiv 版），生成命令 `pdftoppm -png -f 1 -l 1 -scale-to-x 900 -scale-to-y -1 <pdf> <out>`。`venue_tag` 是卡片左上角蓝色徽标里的短名（`NeurIPS 2025`、`AAAI 2026`、`ACL Findings 2026`，预印本写 `arXiv`），不要写 `booktitle` 的全称。这两个都是非文案字段，两份 bib 必须逐字相同，并且都已加进 `bibtexParser.ts` 的 `reconstructBibTeX` 排除列表，不会出现在复制出去的 BibTeX 里。

@@ -2,7 +2,14 @@ type = "card"
 columns = 2
 clamp_lines = 5
 title = "媒体采访"
-description = "报道与提及钮天乐的文章，主要发布于微信公众号。"
+
+[[items]]
+title = "谋定而后动！走近钮天乐的大学之旅"
+subtitle = "哈尔滨工业大学 微信公众号"
+date = "2026.11"
+image = "/media/hit-university-journey-2026.jpg"
+link = "https://mp.weixin.qq.com/s/ELcX6tq9-yLQ2LTQrzzAzA"
+content = "哈尔滨工业大学校级微信公众号人物专访：前三年学分绩 95.7、专业第一，赴瑞典皇家理工学院交换半年，已中稿 CCF-A 论文 3 篇，主持国家级大创项目并入选第十七届全国大学生创新年会。"
 
 [[items]]
 title = "喜报｜未来技术学院学子钮天乐带队斩获天猫 AI 黑客松效率进化赛道冠军"
@@ -11,6 +18,38 @@ date = "2026.11"
 image = "/media/hit-tmall-ai-hackathon-2026.jpg"
 link = "https://weixin.sogou.com/weixin?type=2&query=%E5%96%9C%E6%8A%A5%7C%E6%9C%AA%E6%9D%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E5%AD%A6%E5%AD%90%E9%92%AE%E5%A4%A9%E4%B9%90%E5%B8%A6%E9%98%9F%E6%96%A9%E8%8E%B7%E5%A4%A9%E7%8C%AB%20AI%20%E9%BB%91%E5%AE%A2%E6%9D%BE%E6%95%88%E7%8E%87%E8%BF%9B%E5%8C%96%E8%B5%9B%E9%81%93%E5%86%A0%E5%86%9B"
 content = "天猫 AI 黑客松·高校挑战赛杭州决赛，钮天乐带队以多模态大模型作品「科铸」夺得效率进化赛道冠军，并获联想品牌心选奖。"
+
+[[items]]
+title = "哈工大“青春的选择”大学生先进事迹报告会，与你共话尖兵担当！"
+subtitle = "HIT联小络 微信公众号"
+date = "2026.09"
+image = "/media/hit-youth-choice-forum-2026.jpg"
+link = "https://mp.weixin.qq.com/s/ncH0sQdCCVKk_tmpgDA_HQ"
+content = "哈工大「青春的选择」大学生先进事迹报告会预告，钮天乐列为一校区风采展示代表之一。"
+
+[[items]]
+title = "喜报！我院钮天乐、朱泓宇同学斩获黑龙江省大学生职业规划大赛金奖"
+subtitle = "哈尔滨工业大学未来技术学院 微信公众号"
+date = "2025.03"
+image = "/media/hit-career-planning-gold-2025.jpg"
+link = "https://mp.weixin.qq.com/s/RZQyC99hMEUPRU9TFWAnYA"
+content = "第二届全国大学生职业规划大赛黑龙江赛区总决赛，钮天乐获成长赛道全省高教本科生第一名、金奖。"
+
+[[items]]
+title = "星耀未来 | 第二期——钮天乐“天高志坚心自强，乐学笃行创未来”"
+subtitle = "哈尔滨工业大学未来技术学院 微信公众号"
+date = "2024.11"
+image = "/media/hit-star-of-future-2024.jpg"
+link = "https://mp.weixin.qq.com/s/kh6HYnZqmbcbE0QgiR1LxA"
+content = "未来技术学院「星耀未来」人物专访第二期：2023 级拔尖班钮天乐平均学分绩 97.136、学院排名前 1%，获国家奖学金。"
+
+[[items]]
+title = "哈尔滨工业大学“未来技术智能+”2024年国际暑期学校圆满落幕"
+subtitle = "哈尔滨工业大学未来技术学院 微信公众号"
+date = "2024.07"
+image = "/media/hit-intl-summer-school-2024.jpg"
+link = "https://mp.weixin.qq.com/s/3VA9OXFsSiFBg1If7ybuRQ"
+content = "哈尔滨工业大学「未来技术智能+」2024 年国际暑期学校闭幕，钮天乐作为学生代表发言，分享七天学习的收获与感悟。"
 
 [[items]]
 title = "超优秀！职业规划大赛决赛入围选手个人展示"
